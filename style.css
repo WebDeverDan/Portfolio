@@ -1,31 +1,40 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --gray: #808080;
+}
+
 body {
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif
+    background-color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    width:100%;
 }
+/* Header section starts here */
 
-.header {
+.header{
     display: flex;
-    background-color: #fff;
-    align-items:center;
+    background-color: var(--white);
+    align-items: center;
     justify-content: space-between;
+    width: 100%;
+    margin: 0;
 }
 
+#navigation{
+    text-align:right;
+
+}
 h1 {
-    background: #fff;
-    color:black;
+    background: var(--white);
+    color: var(--black);
     text-align: left;
     padding-left: 20px;
     font-size: 50px;;
 }
 
-p {
-    font-size: 25px;
-    margin-top: 0em;
-    margin-bottom: 0em;
-}
 
 a {
-    color: gray;
+    color: var(--gray);
     padding: 14px;
     padding-bottom: 5px;
     margin: 20px;
@@ -33,10 +42,20 @@ a {
     text-align: right;
     font-size: 30px;
     font-weight: bolder;
-    text-decoration: underline black;
+    text-decoration: underline var(--black);
     text-decoration-thickness: 5px;
 }
 
+ul li {
+    display:inline;
+  }
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+
+}
+ /* .banner is the hero shot*/
 .banner {
      width: 100%;
      height:70%;
@@ -56,60 +75,53 @@ a {
     position:absolute;
     padding-right:40px;
     font-size: 40px;
-    color: black;
+    color: var(--black);
 }
 
-.container1 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;  
+p {
+    font-size: 25px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding: 1em;
 }
 
-.container2 {
-    display: flex;
-    width: 100%;
-    margin-top: 4em;
-}
-
-.container3 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;  
+/* .content1 refers to the items found in the "About Me" section */
+#about-me{
+    font-size: 50px;
+    color: var(--gray);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-top: .4em;
+    padding-right: 1em;
 }
 
 .content1 {
     display: flex;
     flex-direction: row;
     border-style: solid;
-    border-top: black;
-    border-bottom: black;
-    border-right: black;
+    border-top: var(--black);
+    border-bottom: var(--black);
+    border-right: var(--black);
     border-width: 10px;
     padding-left:2em;
     padding-right: 1em;
-}
-.content2 {
-    display: flex;
-    flex-direction: row;
-    border-style: solid;
-    align-items: center;
-    justify-content: space-around;
-    align-content: space-between;
-    border-top: black;
-    border-bottom: black;
-    border-right: black;
-    border-width: 10px;
-    padding-left: 2em;
-    padding-right: 1em;
-    margin-bottom: 2em;
+    width: 100%;
 }
 
 #Daniel {
     width:300px;
     height: 300px;
     padding-left: 1em;
+    padding-top: 3em;
 }
 
+/* .container2 is the wrapper for "Work section */
+.container2 {
+    display: flex;
+    width: 100%;
+    margin-top: 4em;
+}
 .box {
     display: flex;
     flex-grow: 2;
@@ -117,73 +129,82 @@ a {
     justify-content:flex-start;
     align-items: baseline;
     border-style: solid;
-    border-top: black;
-    border-bottom: black;
-    border-right: black;
+    border-top: var(--black);
+    border-bottom: var(--black);
+    border-right: var(--black);
     border-width: 10px;
     padding-left:1em;
     padding-right: 1em;
     margin-bottom: 4em;
 }
 
- #about-me{
-    font-size: 50px;
-    color: gray;
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-    margin-top: .4em;
-    padding-right: 1em;
-}
-
 #work   {
 font-size: 50px;
-    color: gray;
+    color: var(--gray);
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
     margin-top: .4em;
 }
-#contact-me {
-font-size: 50px;
-color: gray;
-font-weight: bolder;
-font-family: Arial, Helvetica, sans-serif;
-text-align: right;
-margin-top: .4em;
-padding-right: 1em;
-}
 
-#design { 
-    display: flex;
-    align-items: center;
-    background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 1.13.12\ PM.png); 
-    background-size:cover;
-    border-style:solid;
-    border-color: gray;
-    width: 100%;
-    height: 400px;
-    margin-left: 1em;
-    } 
-
+/* text for each of the gray boxes ontop of the work previews */
 #designtext {
-    background-color: gray;
+    background-color: var(--gray);
     width: 300px;
     height: 60px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     padding-top: 1em;
     padding-left: 1em;
-    color: #fff;
+    color: var(--white);
 }
+   /* navigation color animation  */
+a:hover {
+    color:var(--black);
+}
+/* linked images are desaturated. Hover will make them saturate to make page engaging */
+#design:hover {
+    filter: saturate(120%);
+}
+
+#lookbook:hover {
+    filter: saturate(120%);
+}
+    
+#skate:hover {
+    filter: saturate(120%);
+}
+    
+#foliage-tracker:hover {
+    filter: saturate(120%);
+}
+    
+#car-value:hover {
+    filter: saturate(120%);
+}
+ /* contains styling for x5 boxes, showcasing portfolio items */
+#design { 
+    display: flex;
+    align-items: center;
+    background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 1.13.12\ PM.png); 
+    filter: grayscale(60%);
+    transition: all 300ms ease;
+    background-size:cover;
+    border-style:solid;
+    border-color: var(--gray);
+    width: 100%;
+    height: 400px;
+    margin-left: 1em;
+    } 
 
 #lookbook { 
     display: flex;
     align-items: center;
-    background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 12.51.30\ PM.png); 
+    background-image: url(Images/_MG_5952.jpeg); 
+    filter: grayscale(60%);
     background-size:cover;
     border-style: solid;
-    border-color: gray;
+    border-color: var(--gray);
     width: 47%;
     height: 250px;
     margin: 1em; 
@@ -193,9 +214,10 @@ padding-right: 1em;
     display: flex;
     align-items: center;
     background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 1.18.06\ PM.png); 
+    filter: grayscale(60%);
     background-size: cover;
     border-style:solid; 
-    border-color: gray;
+    border-color:var(--gray);
     width: 47%;
     height: 250px; 
     margin: 1em;
@@ -205,10 +227,11 @@ padding-right: 1em;
     display: flex;
     align-items: center;
     background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 6.07.29\ PM.png); 
+    filter: grayscale(60%);
     background-size: cover;
-    background-color: black;
+    background-color: var(--black);
     border-style:solid;
-    border-color: gray;
+    border-color: var(--gray);
     width: 47%;
     height: 250px;
     margin: 1em; 
@@ -218,16 +241,150 @@ padding-right: 1em;
     display: flex;
     align-items: center;
     background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 6.09.38\ PM.png); 
+    filter: grayscale(60%);
     background-size: cover;
-    background-color: tan;
-    border-style:solid; 
-    border-color: gray;
+    border-style: solid; 
+    border-color: var(--gray);
     width: 47%;
     height: 250px; 
     margin: 1em;
 } 
+/* .container3 is the wrapper for "Contact Me" section */
+.container3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;  
+}
+
+#contact-me {
+    font-size: 50px;
+    color: var(--gray);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-top: .4em;
+    padding-right: 1em;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
+    border-top: var(--black);
+    border-bottom: var(--black);
+    border-right: var(--black);
+    border-width: 10px;
+    padding-left: 2em;
+    padding-right: 1em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+/* footer section */
+footer {
+    color: var(--gray);
+    text-align: center;
+    margin: 1em;
+    width: 100%;
+}
+
+.flexitem {
+    width:30%;
+
+}
+
+#Daniel {
+    margin-right: 1em;
+}
+
+/* adjustment for devices with 600px with or less */
+@media screen and (max-width: 600px) {
+   
+    .content1 {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .flexitem {
+        width:100%; 
+    }
+
+    .header{
+        display: flex;
+        background-color: var(--white);
+        align-items:center;
+        align-content: space;
+        justify-content: space-between;
+        width: 100%;
+        margin: -2;
+    }
+
+    #navigation{
+        text-align:center;
+    }
+
+    .banner {
+        width: 104%;
+    }
+
+    a {
+        margin: 0;
+        width: 40%;
+        font-size: 18pt;
+    }
+
+    .content2 {
+        width: 150%;
+        padding-left: 0;
+    
+    }
+
+    .container3 {
+        width: 40%;
+    }
+
+    .container2{
+        width:40%;
+    }
+
+    .box{
+        width: 120%;
+        padding-right: 2em;
+    }
+
+    #design{
+        width: 100%;
+    }
+
+    #lookbook{
+        width: 100%;
+    }
+
+    #skate{
+        width: 100%;
+    }
+
+    #foliage-tracker{
+        width: 100%;
+    }
+
+    #car-value{
+        width: 100%;
+    }
+
+    ul li {
+        display:inline;
+      }
 
 
-
-
-
+      footer {
+        color: var(--gray);
+        text-align: center;
+        margin: 1em;
+        width: 100%;
+    }
+}

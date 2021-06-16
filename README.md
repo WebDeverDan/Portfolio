@@ -1,14 +1,18 @@
-This is a mock-up of a portfolio of web applications that I have created. At this time, there are no actual web applications displayed, however they are set up for the future. 
+This is a mock-up of a portfolio of web applications that I have created. For this assignment, I have linked 2 actual external web pages (not newly created, but to demonstrate a clickable item), and have linked the remaining 3 portfolio items to other pages around the page in lieu of an externa link. Since there are currently no other applications produced, the images and content are placeholders per the allowed instructions. 
 
-The header 
+The email address at the bottom of the page is clickable, opening up a new message to the displayed email address using the default email service provider, and personal design site is a clickable redirect as well. 
 
-*insert 2 screenshots of the appl*
+Copyright information is also listed at the bottom. 
 
-*insert github link to deployment*
+![Image 1 of application:]()
+![Image 2 of application:]()
+![Image 3 of application:]() 
 
-*insert github link to repository*
+Github Repository:
+Github pages deployment: 
 
-*update your about me sectio*
 
-*comment out the css*
+
+
+
 
