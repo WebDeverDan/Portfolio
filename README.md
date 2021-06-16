@@ -4,12 +4,12 @@ The email address at the bottom of the page is clickable, opening up a new messa
 
 Copyright information is also listed at the bottom. 
 
-![Image 1 of application:]()
-![Image 2 of application:]()
-![Image 3 of application:]() 
+![Image 1 of application:](Images/Portfolio - Image 1.png)
+![Image 2 of application:](Images/Portfolio - Image 2.png)
+![Image 3 of application:](Images/Portfolio - Image 3.png) 
 
-Github Repository:
-Github pages deployment: 
+Github Repository: https://github.com/rollerbladerdan/Portfolio
+Github pages deployment: https://rollerbladerdan.github.io/Portfolio/
 
 
 
