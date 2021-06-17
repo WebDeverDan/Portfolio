@@ -186,7 +186,7 @@ a:hover {
 #design { 
     display: flex;
     align-items: center;
-    background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 1.13.12\ PM.png); 
+    background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 1.13.12\ PM.png);
     filter: grayscale(60%);
     transition: all 300ms ease;
     background-size:cover;
@@ -200,7 +200,7 @@ a:hover {
 #lookbook { 
     display: flex;
     align-items: center;
-    background-image: url(Images/_MG_5952.jpeg); 
+    background-image: url(Images/lookbook.png); 
     filter: grayscale(60%);
     background-size:cover;
     border-style: solid;
