@@ -186,7 +186,7 @@ a:hover {
 #design { 
     display: flex;
     align-items: center;
-    background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 1.13.12\ PM.png);
+    background-image: url(Images/danielb.png);
     filter: grayscale(60%);
     transition: all 300ms ease;
     background-size:cover;
@@ -213,7 +213,7 @@ a:hover {
 #skate { 
     display: flex;
     align-items: center;
-    background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 1.18.06\ PM.png); 
+    background-image: url(Images/skate.png); 
     filter: grayscale(60%);
     background-size: cover;
     border-style:solid; 
@@ -226,7 +226,7 @@ a:hover {
 #foliage-tracker { 
     display: flex;
     align-items: center;
-    background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 6.07.29\ PM.png); 
+    background-image: url(Images/foliage.png); 
     filter: grayscale(60%);
     background-size: cover;
     background-color: var(--black);
@@ -240,7 +240,7 @@ a:hover {
 #car-value { 
     display: flex;
     align-items: center;
-    background-image: url(Images/Screen\ Shot\ 2021-06-13\ at\ 6.09.38\ PM.png); 
+    background-image: url(Images/car.png); 
     filter: grayscale(60%);
     background-size: cover;
     border-style: solid; 
