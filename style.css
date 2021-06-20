@@ -148,7 +148,7 @@ font-size: 50px;
 }
 
 /* text for each of the gray boxes ontop of the work previews */
-#designtext {
+.designtext {
     background-color: var(--gray);
     width: 300px;
     height: 60px;
