@@ -4,9 +4,9 @@ The email address at the bottom of the page is clickable, opening up a new messa
 
 Copyright information is also listed at the bottom. 
 
-![Image 1 of application:](https://github.com/WebDeverDan/Portfolio/blob/main/Images/Portfolio%20-%20Image%201.png)
-![Image 2 of application:](https://github.com/WebDeverDan/Portfolio/blob/main/Images/Portolio%20-%20Image%202.png)
-![Image 3 of application:](https://github.com/WebDeverDan/Portfolio/blob/main/Images/Portfolio%20-%20Image%203.png) 
+![Image 1 of application:](https://github.com/WebDeverDan/Portfolio/blob/455c580cf46d2e66bba6efa1c4100cab0c7d26a5/Images/Screenshot1.png)
+![Image 2 of application:](https://github.com/WebDeverDan/Portfolio/blob/455c580cf46d2e66bba6efa1c4100cab0c7d26a5/Images/Screenshot%202.png)
+![Image 3 of application:](https://github.com/WebDeverDan/Portfolio/blob/455c580cf46d2e66bba6efa1c4100cab0c7d26a5/Images/Screenshot%203.png) 
 
 Github Repository: https://github.com/WebDeverDan/Portfolio
 Github Pages Deployment: https://WebDeverDan.github.io/Portfolio/
@@ -17,9 +17,10 @@ Github Repository for Video Game Picker: https://github.com/WebDeverDan/Confused
 Github Pages Deploymant for Weather Dashboard: https://webdeverdan.github.io/Weather-Dashboard/
 Github Repository for Weather Dashboard: https://github.com/WebDeverDan/Weather-Dashboard
 
-
 Github Pages Deployment for Digital Daily Planner: https://webdeverdan.github.io/Daily-Planner/
 Github Pages Deployment for Digital Daily Planner: https://github.com/WebDeverDan/Daily-Planner
+
+
 
 
 
